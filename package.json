@@ -1,0 +1,58 @@
+{
+  "name": "multiple-date-picker-vue3",
+  "version": "1.0.0",
+  "description": "A Vue 3 component for selecting multiple dates",
+  "main": "./dist/multipleDatePicker.umd.js",
+  "module": "./dist/multipleDatePicker.es.js",
+  "types": "./dist/types/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "build:example": "vite build --config vite.example.config.ts",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "example": "vite --config vite.example.config.ts",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0",
+    "element-plus": "^2.4.0",
+    "dayjs": "^1.11.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/test-utils": "^2.4.3",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^1.0.4",
+    "jsdom": "^23.0.1",
+    "vue-tsc": "^2.2.8",
+    "sass": "^1.71.0",
+    "element-plus": "^2.4.0",
+    "dayjs": "^1.11.0",
+    "vue": "^3.3.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "date-picker",
+    "multiple-date-picker",
+    "calendar"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/multiple-date-picker"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/multiple-date-picker/issues"
+  },
+  "homepage": "https://github.com/yourusername/multiple-date-picker#readme"
+}

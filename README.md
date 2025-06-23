@@ -71,7 +71,7 @@ const selectedDates = ref([])
     :max-date="3"
   />
 </template>
-```
+
 <script setup>
 import { ref } from 'vue'
 import { MultipleDatePicker } from 'multiple-date-picker'

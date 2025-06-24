@@ -1,11 +1,13 @@
 {
   "name": "multiple-date-picker-vue3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue 3 component for selecting multiple dates",
   "main": "./dist/multipleDatePicker.umd.js",
   "module": "./dist/multipleDatePicker.es.js",
   "types": "./dist/types/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
